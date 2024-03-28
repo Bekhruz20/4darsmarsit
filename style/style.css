@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container1 {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.row1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav {
+    padding: 30px;
+}
+
+.st1 {
+display: flex;
+gap: 50px;
+align-items: center;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    gap: 30px;
+}
+
+ul li a {
+text-decoration: none;
+font-family: Plus Jakarta Sans;
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+text-align: left;
+}
+
+.b {
+    background-color: black;
+    color: white;
+    font-family: Plus Jakarta Sans;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16.8px;
+    text-align: center;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 6px;
+    border: 1px solid black;
+}
+
+ul li a:hover {
+    color: #1aab7b;
+}
+
+.logo:hover {
+    opacity: 0.8;
+}
+
+.b:hover {
+    background-color: white;
+    color: #1aab7b;
+}
+
+.logo:active {
+    opacity: 0.6;
+
+}
+
+ul li a:active {
+    color: #1aab7b;
+    opacity: 0.6;
+}
+
+.b:active {
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    opacity: 0.6;
+}
+
+h1 {
+    margin: 0 auto;
+} 
+
+
+.container2 {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.row3 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    gap: 70px;
+}
+
+.left p {
+    margin-top: 80px;
+}
+
+
+.left button {
+    background-color: #1aab7b;
+    color: white;
+    font-family: Plus Jakarta Sans;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16.8px;
+    text-align: center;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 6px;
+    border: 1px solid #1aab7b;
+    margin-top: 50px;
+}
+
+.container3 {
+    width: 80%;
+    margin: 0 auto;
+    border-color: #E1E7ED;
+    text-align: center;
+}
+
+.c3 {
+    background-color: #E1E7ED;
+}
+
+.c {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 120px;
+}
+.card {
+    background-color: #E1E7ED;
+width: 260px;
+height: 200px;
+border: 1px solid black;
+margin: 0 auto;
+}
+
+.card:hover {
+    background-color: #1aab7b;
+    border: 1px  solid #1aab7b;
+}
+
+a {
+    list-style-type: none;
+text-decoration: none;
+margin-top: 20px;
+}
+
+footer {
+    background-color: black;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    color: white;
+}
+
+p {
+    padding-top: 20px;
+}
+
+img {
+    padding-top: 20px;
+}
